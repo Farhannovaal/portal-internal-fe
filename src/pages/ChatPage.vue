@@ -11,10 +11,10 @@
     />
 
     <div
-      class="flex flex-col h-[calc(100vh-170px)] rounded-2xl border border-slate-800 bg-slate-900/60 overflow-hidden"
+      class="flex flex-col h-[calc(100vh-170px)] rounded-2xl border border-slate-800 bg-black overflow-hidden"
     >
       <header
-        class="flex items-center justify-between gap-3 px-4 py-3 border-b border-slate-800 bg-slate-900/80"
+        class="flex items-center justify-between gap-3 px-4 py-3 border-b border-slate-800 bg-black"
       >
         <div>
           <h1 class="text-sm font-semibold text-slate-50">
@@ -31,7 +31,7 @@
             <span class="text-slate-400">Mode</span>
             <select
               v-model="mode"
-              class="rounded-lg border border-slate-700 bg-slate-900 px-2 py-1 text-xs text-slate-100 focus:outline-none focus:ring-1 focus:ring-emerald-500"
+              class="rounded-lg border border-slate-700 bg-black px-2 py-1 text-xs text-slate-100 focus:outline-none focus:ring-1 focus:ring-emerald-500"
             >
               <option value="auto">auto</option>
               <option value="rag">rag</option>
@@ -102,14 +102,14 @@
           class="flex items-center gap-2 pt-2 text-[11px] text-slate-400"
         >
           <span
-            class="inline-flex h-2 w-2 animate-pulse rounded-full bg-emerald-400"
+            class="inline-flex h-2 w-2 animate-pulse rounded-full bg-white"
           />
           <span>Thinking...</span>
         </div>
       </div>
 
       <form
-        class="border-t border-slate-800 bg-slate-900/80 px-4 py-3"
+        class="border-t border-slate-800 bg-black px-4 py-3"
         @submit.prevent="handleSend"
       >
         <div class="flex items-end gap-2">
@@ -147,7 +147,7 @@
 
     <aside class="space-y-4">
       <div
-        class="rounded-2xl border border-slate-800 bg-slate-900/60 p-4 space-y-2"
+        class="rounded-2xl border border-slate-800 bg-black p-4 space-y-2"
       >
         <h2 class="text-sm font-semibold text-slate-50">Status</h2>
         <p class="text-xs text-slate-400">
@@ -172,7 +172,7 @@
       </div>
 
       <div
-        class="rounded-2xl border border-slate-800 bg-slate-900/60 p-4 space-y-2"
+        class="rounded-2xl border border-slate-800 bg-black p-4 space-y-2"
       >
         <h2 class="text-sm font-semibold text-slate-50">
           Roadmap UI Chat

@@ -1,7 +1,7 @@
 <template>
   <aside class="space-y-3">
     <div
-      class="rounded-2xl border border-slate-800 bg-slate-900/60 p-4 space-y-2"
+      class="rounded-2xl border border-slate-800 bg-black p-4 space-y-2"
     >
       <div class="flex items-center justify-between gap-2">
         <h2 class="text-sm font-semibold text-slate-50">

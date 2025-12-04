@@ -31,7 +31,6 @@ const routes: RouteRecordRaw[] = [
     name: 'admin-ai-assistants',
     component: AdminAiAssistantsPage,
   },
-  // fallback
   {
     path: '/:pathMatch(.*)*',
     redirect: '/',

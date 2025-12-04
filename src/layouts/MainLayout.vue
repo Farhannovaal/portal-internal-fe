@@ -1,6 +1,6 @@
 <template>
-  <div class="min-h-screen bg-slate-950 text-slate-100">
-    <header class="border-b border-slate-800 bg-slate-900/80 backdrop-blur">
+  <div class="min-h-screen bg-black text-slate-100">
+    <header class="border-b border-slate-800 bg-black">
       <div
         class="mx-auto flex max-w-6xl items-center justify-between gap-4 px-4 py-3"
       >

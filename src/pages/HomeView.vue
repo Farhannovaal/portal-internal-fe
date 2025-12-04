@@ -1,6 +1,6 @@
 <template>
   <div class="grid gap-6 md:grid-cols-[minmax(0,2fr)_minmax(0,1fr)]">
-    <section class="rounded-2xl border border-slate-800 bg-slate-900/60 p-4">
+    <section class="rounded-2xl border border-slate-800 bg-black p-4">
       <h1 class="mb-3 text-base font-semibold text-slate-100">
         Internal Assistant
       </h1>

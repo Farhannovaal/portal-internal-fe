@@ -61,16 +61,6 @@
           <p class="font-medium text-slate-300">
             Mulai ngobrol dengan internal-helper
           </p>
-          <p class="max-w-md text-xs text-slate-500">
-            Pertanyaanmu akan dikirim ke
-            <code class="font-mono text-emerald-400">llm-gateway-1</code>
-            dengan mode
-            <span class="font-mono text-emerald-400">{{ mode }}</span>
-            dan tags
-            <code class="font-mono text-emerald-400">
-              {{ defaultTags.join(', ') || '-' }}
-            </code>.
-          </p>
         </div>
 
         <div v-else class="space-y-3">

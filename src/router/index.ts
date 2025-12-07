@@ -4,6 +4,7 @@ import ChatPage from '@/pages/ChatPage.vue';
 import AnalyticsPage from '@/pages/AnalyticsPage.vue';
 import AdminAiAppsPage from '@/pages/AdminAiAppsPage.vue';
 import AdminAiAssistantsPage from '@/pages/AdminAiAssistantsPage.vue';
+import KnowledgeBasePage from '@/pages/KnowledgeBasePage.vue';
 
 const routes: RouteRecordRaw[] = [
   {
@@ -31,6 +32,13 @@ const routes: RouteRecordRaw[] = [
     name: 'admin-ai-assistants',
     component: AdminAiAssistantsPage,
   },
+
+  {
+    path: '/admin/kb',
+    name: 'admin-kb',
+    component: KnowledgeBasePage,
+  },
+
   {
     path: '/:pathMatch(.*)*',
     redirect: '/',

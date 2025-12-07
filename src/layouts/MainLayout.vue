@@ -12,7 +12,7 @@
           </span>
           <div class="flex flex-col leading-tight">
             <span class="text-sm font-semibold">Portal Internal AI</span>
-            <span class="text-xs text-slate-400">Farhan Internal Gateway</span>
+            <span class="text-xs text-slate-400">Internal Gateway</span>
           </div>
         </div>
 
@@ -67,6 +67,15 @@
           >
             Ai Assistants
           </RouterLink>
+
+          <RouterLink
+            to="/admin/kb"
+            class="rounded-full px-3 py-1 transition-colors"
+            :class="linkClass('/admin/kb')"
+          >
+            KB Manager
+          </RouterLink>
+
         </div>
       </nav>
     </header>

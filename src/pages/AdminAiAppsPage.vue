@@ -185,10 +185,11 @@ function closeForm() {
   editingModel.value = null;
 }
 
-async function onSaved(saved: AiApp) {
+async function onSaved(_saved: AiApp) {
   await fetchApps();
   closeForm();
 }
+
 
 async function confirmRegen(app: AiApp) {
   if (!confirm(`Regenerate API key for ${app.name} (${app.code})? This will replace the existing key.`)) return;

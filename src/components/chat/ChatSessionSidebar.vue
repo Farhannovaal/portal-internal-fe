@@ -76,7 +76,7 @@
 <script setup lang="ts">
 import type { ChatSession } from '@/types/chat';
 
-const props = defineProps<{
+defineProps<{
   sessions: ChatSession[];
   selectedSessionId: string | null;
   loading: boolean;
